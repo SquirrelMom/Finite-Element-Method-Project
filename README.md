@@ -36,4 +36,6 @@ The program capable of calculating the non-stationary solution of heat transfer 
   
   GlobalData stores general information about the grid, including the simulation time, time step value, thermal conductivity coefficient value, heat exchange coefficient value, ambient temperature, starting temperature, material density value, specific heat, number of nodes, and the number of elements.
   
-  The Element structure, on the other hand, is responsible for storing information about the node ID numbers of a specific element. They are stored in a double vector named ID. Vectors x and y are responsible for storing the coordinates x and y of the loaded nodes respectively, and the vector BC_xy stores information about which nodes have boundary conditions. There are also many functions that make the program working, all of them are described in the program files. 
+  The Element structure, on the other hand, is responsible for storing information about the node ID numbers of a specific element. They are stored in a double vector named ID. Vectors x and y are responsible for storing the coordinates x and y of the loaded nodes respectively, and the vector BC_xy stores information about which nodes have boundary conditions.
+  
+  There are also many functions that make the program working, all of them are described in the program files. 
